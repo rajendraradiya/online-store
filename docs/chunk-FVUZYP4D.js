@@ -1,0 +1,1 @@
+import{a}from"./chunk-6IJM3GTH.js";import{ba as i,ga as n,w as e}from"./chunk-G5K7HVYN.js";var p=class t{http=n(a);loadProductDetail(o){return this.http.get("http/products.json").pipe(e(r=>r.find(c=>c.id===o)))}static \u0275fac=function(r){return new(r||t)};static \u0275prov=i({token:t,factory:t.\u0275fac,providedIn:"root"})};export{p as a};
